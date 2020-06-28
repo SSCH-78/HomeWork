@@ -1,0 +1,77 @@
+Home Work Practice Linux Commands       
+
+Sana@MyPC MINGW64 ~
+$ cd Desktop/
+
+Sana@MyPC MINGW64 ~/Desktop
+$ mkdir HomeWork
+
+Sana@MyPC MINGW64 ~/Desktop
+$ cd HomeWork
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ ls
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ Touch txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ ls
+txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ nano txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ cp txtFile1.txt copy.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ ls
+copy.txt  txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ mv copy.txt copyofFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ ls
+copyofFile1.txt  txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ rm copyofFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork
+$ ls
+txtFile1.txt
+
+Sana@MyPC MINGW64 ~/Desktop/extra
+$ cd ..
+
+Sana@MyPC MINGW64 ~/Desktop
+$ rm -r extra
+
+Sana@MyPC MINGW64 ~/Desktop
+$ ls
+ desktop.ini   gs/   HomeWork/  'Microsoft Teams.lnk'*  'Opera Browser.lnk'*   Slack.lnk*   Thumbs.db
+
+Sana@MyPC MINGW64 /c
+$ cd /
+
+Sana@MyPC MINGW64 /
+$ cd /C
+
+Sana@MyPC MINGW64 /C
+$ ls
+'$Recycle.Bin'/             hiberfil.sys     PerfLogs/               Recovery/                     Users/
+ bootmgr                    IFRToolLog.txt  'Program Files'/         Recovery.txt                  Windows/
+ BOOTNXT                    Intel/          'Program Files (x86)'/   swapfile.sys
+'Documents and Settings'@   pagefile.sys     ProgramData/           'System Volume Information'/
+
+$ cd /
+
+Sana@MyPC MINGW64 /
+$ cd /D
+
+Sana@MyPC MINGW64 /D
+$ ls
+'#5Hira.docx'                                              DropboxInstaller.exe*
+'$RECYCLE.BIN'/                                            DSA.rar
