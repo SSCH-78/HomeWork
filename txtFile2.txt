@@ -100,3 +100,30 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   txtFile1.txt
 
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   txtFile1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txtFile2.txt
+
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
+$ git add txtFile2.txt
+warning: LF will be replaced by CRLF in txtFile2.txt.
+The file will have its original line endings in your working directory
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
+$ git status
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   txtFile1.txt
+        modified:   txtFile2.txt
+
