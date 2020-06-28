@@ -1,0 +1,223 @@
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
+$ cd .git/
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork/.git (GIT_DIR!)
+$ git log
+commit 19f27b2e31e3860303d12bfe2d86c284a23e2732 (HEAD -> master, branch01)
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:05:21 2020 +0500
+
+    1st in branch01
+
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+...skipping...
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+...skipping...
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+...skipping...
+commit 19f27b2e31e3860303d12bfe2d86c284a23e2732 (HEAD -> master, branch01)
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:05:21 2020 +0500
+
+    1st in branch01
+
+
+commit 19f27b2e31e3860303d12bfe2d86c284a23e2732 (HEAD -> master, branch01)
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:05:21 2020 +0500
+
+    1st in branch01
+
+commit 19f27b2e31e3860303d12bfe2d86c284a23e2732 (HEAD -> master, branch01)
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:05:21 2020 +0500
+
+    1st in branch01
+
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+HELP -- Press RETURN for more, or q when done...skipping...
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+...skipping...
+commit 1b43d5307c688c25f66645cb368e84b7ec7996ff
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:54 2020 +0500
+
+    3 version
+
+commit f2741197da27767b8f9d330572a209c5df82b56a
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 01:00:15 2020 +0500
+
+    third version
+
+commit 9ec38217024c4e685045b4df40c9981e90283999
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:42:43 2020 +0500
+
+    Second version
+
+commit 31963f755780231a39f56736e1ead7bc8ac2b1a3
+Author: SSCH-78 <sanachaudhary30@gmail.com>
+Date:   Mon Jun 29 00:39:05 2020 +0500
+
+    First version
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork/.git (GIT_DIR!)
+$ git diff f2741197da27767b8f9d330572a209c5df82b56a 1b43d5307c688c25f66645cb368e84b7ec7996ff
+diff --git a/txtFile2.txt b/txtFile2.txt
+index cd76931..03b55c0 100644
+--- a/txtFile2.txt
++++ b/txtFile2.txt
+@@ -100,3 +100,30 @@ Changes to be committed:
+   (use "git restore --staged <file>..." to unstage)
+         modified:   txtFile1.txt
+
++Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
++$ git status
++On branch master
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        modified:   txtFile1.txt
++
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git restore <file>..." to discard changes in working directory)
++        modified:   txtFile2.txt
++
++
++Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
++$ git add txtFile2.txt
