@@ -127,3 +127,10 @@ Changes to be committed:
         modified:   txtFile1.txt
         modified:   txtFile2.txt
 
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (master)
+$ git checkout -b branch01
+Switched to a new branch 'branch01'
+
+Sana@MyPC MINGW64 ~/Desktop/HomeWork (branch01)
+$ nano txtFile2.txt
