@@ -75,3 +75,5 @@ Sana@MyPC MINGW64 /D
 $ ls
 '#5Hira.docx'                                              DropboxInstaller.exe*
 '$RECYCLE.BIN'/                                            DSA.rar
+
+continued on txtFile2...
